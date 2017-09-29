@@ -186,9 +186,10 @@ ParserRule
 
     body=RuleBlock
 
-    caught=ExceptionGroup
     semicolonSymbol=';'
-  ;
+
+    caught=ExceptionGroup
+ ;
 
 // Many language targets support exceptions and the rule will
 // generally be able to throw the language target equivalent

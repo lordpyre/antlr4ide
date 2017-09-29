@@ -124,7 +124,7 @@ class Antlr4Formatter extends AbstractDeclarativeFormatter {
 
     // Indent rule body -> ':' body ';'
     c.setIndentation(g.parserRuleAccess.COLONTerminalRuleCall_6,
-      g.parserRuleAccess.semicolonSymbolSemicolonKeyword_9_0)
+      g.parserRuleAccess.semicolonSymbolSemicolonKeyword_8_0)
 
     // locals
     c.setLinewrap.before(g.localVarsAccess.localsKeyword_0)
@@ -155,8 +155,8 @@ class Antlr4Formatter extends AbstractDeclarativeFormatter {
     c.setLinewrap.before(g.blockAccess.rightParenthesisKeyword_3)
 
     // ';'
-    c.setLinewrap.before(g.parserRuleAccess.semicolonSymbolSemicolonKeyword_9_0)
-    c.setLinewrap(2).after(g.parserRuleAccess.semicolonSymbolSemicolonKeyword_9_0)
+    c.setLinewrap.before(g.parserRuleAccess.semicolonSymbolSemicolonKeyword_8_0)
+    c.setLinewrap(2).after(g.parserRuleAccess.semicolonSymbolSemicolonKeyword_8_0)
   }
 
   /**

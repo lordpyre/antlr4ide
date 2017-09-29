@@ -41,7 +41,7 @@ Parser : 'parser';
 
 Throws : 'throws';
 
-Catch : 'catch';
+Catch : 'catch' {isLexerRule=Boolean.FALSE;};
 
 Lexer : 'lexer';
 
